@@ -88,7 +88,7 @@ traffic-dashboard/
 1. **Clone the repository**
 
    ```bash
-   git clone https://github.com/EugeneKrass/interactive_dashboard_firebase.git
+   git clone https://github.com/EugeneKrass/traffic-dashboard.git
    cd traffic-dashboard
    ```
 
