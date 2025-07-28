@@ -1,5 +1,6 @@
 {
   "functions": {
+    "region": "europe-west1",
     "source": "functions",
     "ignore": [
       "node_modules",
@@ -9,10 +10,13 @@
     ]
   },
   "firestore": {
+    "region": "europe-west1",
     "rules": "firestore.rules",
     "indexes": "firestore.indexes.json"
   },
   "hosting": {
+    "region": "europe-west1",
+    "target": "traffic-dashboard-eugenek",
     "public": "frontend/build",
     "ignore": ["firebase.json", "**/.*", "**/node_modules/**"],
     "rewrites": [
