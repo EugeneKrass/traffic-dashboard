@@ -1,4 +1,3 @@
-import React from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { Calendar, Edit2, Trash2 } from "lucide-react";
 import {

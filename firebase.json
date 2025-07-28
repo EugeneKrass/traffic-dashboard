@@ -6,8 +6,7 @@
       ".git",
       "firebase-debug.log",
       "firebase-debug.*.log"
-    ],
-    "region": "europe-west1"
+    ]
   },
   "firestore": {
     "rules": "firestore.rules",
