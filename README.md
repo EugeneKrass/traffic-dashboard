@@ -4,6 +4,7 @@ A modern, responsive traffic analytics dashboard built with React, Redux, Fireba
 
 🔗 **Live Demo**: [[https://traffic-dashboard-eugenek.web.app](https://traffic-dashboard-eugenek.web.app)](https://traffic-dashboard-eugenek.web.app/)
 
+
 ## 🚀 Features
 
 ### Core Functionality
@@ -222,6 +223,21 @@ Delete traffic entry
 - **CORS**: Configured for production environment
 
 ## 🧪 Testing
+
+## 👨‍💻 Users for test
+
+Validate users: 
+   email:
+      admin@gmail.com 
+   password:
+      admin1 
+   email:
+      test@gmail.com 
+   password:
+      123456
+
+🔒   Other users cant see the dashboar
+🚀   But they can Sing up and enjoy 
 
 ### Manual Testing Checklist
 
