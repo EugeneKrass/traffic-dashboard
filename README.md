@@ -2,7 +2,7 @@
 
 A modern, responsive traffic analytics dashboard built with React, Redux, Firebase, and Tailwind CSS. This application demonstrates proficiency in fullstack development with real-time data management, authentication, and cloud deployment.
 
-🔗 **Live Demo**: [https://traffic-dashboard-eugenek.web.app](https://traffic-dashboard-eugenek.web.app)
+🔗 **Live Demo**: [[https://traffic-dashboard-eugenek.web.app](https://traffic-dashboard-eugenek.web.app)](https://traffic-dashboard-eugenek.web.app/)
 
 ## 🚀 Features
 
@@ -225,16 +225,16 @@ Delete traffic entry
 
 ### Manual Testing Checklist
 
-- [x] User registration and login
-- [x] Data fetching and display
-- [x] Create new entries
-- [x] Edit existing entries
-- [x] Delete entries
-- [x] Date range filtering
-- [x] Sorting functionality
-- [x] View mode switching
-- [x] Responsive design
-- [x] Error handling
+- [ ] User registration and login
+- [ ] Data fetching and display
+- [ ] Create new entries
+- [ ] Edit existing entries
+- [ ] Delete entries
+- [ ] Date range filtering
+- [ ] Sorting functionality
+- [ ] View mode switching
+- [ ] Responsive design
+- [ ] Error handling
 
 ## 🎯 Performance Optimizations
 
@@ -242,18 +242,7 @@ Delete traffic entry
 - **Memoization**: Redux selectors for computed values
 - **Lazy Loading**: Components loaded on demand
 - **Debouncing**: Search and filter operations
-- **Caching**: API responses cached in Redux
-
-## 📈 Future Enhancements
-
-- [ ] User profile management
-- [ ] Export data to CSV/PDF
-- [ ] Real-time updates with Firestore listeners
-- [ ] Advanced analytics (trends, predictions)
-- [ ] Multi-language support
-- [ ] Dark mode
-- [ ] PWA capabilities
-- [ ] Automated testing suite
+- **Caching**: API responses are cached in Redux
 
 ## 🤝 Architecture Decisions
 
