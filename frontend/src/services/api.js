@@ -1,10 +1,12 @@
 import { auth } from "./firebase";
 
 /**
- * Base API URL from environment variables
- * Points to local emulator in development, production URL in production
+ * Base API URL
+ * Uses environment variable if set, otherwise defaults to production URL
  */
-const API_URL = process.env.production.REACT_APP_API_URL;
+const API_URL =
+  process.env.REACT_APP_API_URL ||
+  "https://us-central1-traffic-dashboard-eugenek.cloudfunctions.net/api";
 
 /**
  * Helper function to get authentication headers
