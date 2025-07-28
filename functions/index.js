@@ -2,6 +2,9 @@ const functions = require("firebase-functions");
 const admin = require("firebase-admin");
 const cors = require("cors")({ origin: true });
 
+// Set the region for all functions
+const REGION = 'europe-west1';
+
 admin.initializeApp();
 const db = admin.firestore();
 
@@ -33,7 +36,7 @@ const checkUserRole = async (uid, email) => {
 };
 
 // Main API endpoint
-exports.api = functions.https.onRequest((req, res) => {
+exports.api = functions.region(REGION).https.onRequest((req, res) => {
   const path = req.path.replace(/^\/+|\/+$/g, "");
   const pathParts = path.split("/");
 
@@ -240,7 +243,7 @@ async function handleDeleteTraffic(req, res, id) {
 }
 
 // Optional: Function to seed initial data
-exports.seedData = functions.https.onRequest(async (req, res) => {
+exports.seedData = functions.region(REGION).https.onRequest(async (req, res) => {
   cors(req, res, async () => {
     try {
       // Verify authentication
