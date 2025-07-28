@@ -16,7 +16,6 @@
   },
   "hosting": {
     "region": "europe-west1",
-    "target": "traffic-dashboard-eugenek",
     "public": "frontend/build",
     "ignore": ["firebase.json", "**/.*", "**/node_modules/**"],
     "rewrites": [
